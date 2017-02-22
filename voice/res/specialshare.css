@@ -1,0 +1,299 @@
+
+.content{
+	font-size:.28rem;
+	margin: 0 auto;
+}
+article{
+	padding:.6rem .4rem 0;
+}
+.share-top{
+	text-align:center;
+}
+.share-top img{
+	/*width:4rem;*/
+	/*height:1.5rem;*/
+}
+.share-title{
+	width:3.7rem;
+	border-top:2px solid #668f31;
+	font-size:.32rem;
+	color:#668f31;
+	position:relative;
+	margin:0 auto;
+}
+.tagtitle{
+	position:absolute;
+	top:-.2rem;
+	left:1.06rem;
+	background: url(../images/bg.png) repeat;
+	padding:0 .1rem;
+}
+.share-cont{
+	margin-top:.2rem;
+}
+.share-cont h1{
+	background-image: url(../images/icon-to.png);
+	background-repeat:no-repeat;
+	background-size: .47rem;
+	text-indent:.65rem;
+	color:#668f31;
+	font-size:.32rem;
+	padding-bottom:.2rem;
+}
+.share-cont p{
+	font-size:.28rem;
+	line-height:.4rem;
+	color:#959595;
+}
+.share-cont .dec{
+	font-size:.28rem;
+	line-height:.4rem;
+	color:#959595;
+	border: none;
+	outline: none;
+	overflow: hidden;
+	width: 100%;
+	background: none;
+}
+.cd-cont{
+	padding-top:.65rem;
+	text-align:center;
+	height:6.4rem;
+	overflow:hidden;
+}
+@-webkit-keyframes rotate{
+	from{-webkit-transform:rotate(0deg)}
+	to{-webkit-transform:rotate(360deg)}
+}
+@-moz-keyframes rotate{
+	from{-moz-transform:rotate(0deg)}
+	to{-moz-transform:rotate(360deg)}
+}
+@-ms-keyframes rotate{
+	from{-ms-transform:rotate(0deg)}
+	to{-ms-transform:rotate(360deg)}
+}
+@-o-keyframes rotate{
+	from{-o-transform:rotate(0deg)}
+	to{-o-transform:rotate(360deg)}
+}
+
+.cd-out{
+	background-image:url(../images/sharecd-bg.png);
+	background-repeat:no-repeat;
+	background-size: 5.7rem;
+	height: 5.7rem;
+	width: 5.7rem;
+	margin:0 auto;
+}
+.cd-antion{	
+	animation: 9.5s linear 0s normal none infinite rotate;
+	-webkit-animation:9.5s linear 0s normal none infinite rotate;
+	-o-animation:9.5s linear 0s normal none infinite rotate;
+	-moz-animation:9.5s linear 0s normal none infinite rotate;
+	-ms-animation:9.5s linear 0s normal none infinite rotate;
+}
+.picture{
+	width:3.35rem;
+	height:3.35rem;
+	margin:-4.5rem auto 0;
+	position:relative;
+}
+.picture img{
+	width:3.35rem;
+	height:3.35rem;
+	border-radius:50%;
+}
+.cd-btn{
+	position:absolute;
+	top:1.05rem;
+	left:1.05rem;
+	width:1.25rem;
+	height:1.25rem;
+	overflow:hidden;
+}
+.cd-btn img{
+	width:1.25rem;
+	height:1.25rem;
+	opacity: 0.6;
+}
+.sharecd-btn{
+	position:absolute;
+	top:1.4rem;
+	left:1.4rem;
+	width:.55rem;
+	height:.55rem;
+	overflow:hidden;
+}
+.sharecd-btn img.share-cdonoff{
+	width: .55rem;
+	height:.55rem;
+}
+#stop{
+	display:none;
+}
+.poetcon{
+	padding: .6rem 0.7rem .74rem;
+}
+.poet-name{
+	font-size: .32rem;
+	color: #1b1b1b;
+	line-height: .4rem;
+	width: 100%;
+	text-align: left;
+	margin-bottom:.15rem;
+}
+.author{
+	color: #959595;
+	line-height: .32rem;
+	text-align:left;
+	margin-bottom:.44rem;
+}
+.poety{
+	background: none;
+	line-height: .4rem;
+	color: #959595;
+	font-size: .28rem;
+	text-align: center;
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 50%;	
+	display: table;
+	margin-bottom:.4rem;
+	font-family: "Helvetica Neue" , Helvetica, STHeiTi, sans-serif;
+}
+.poetry-info{
+	padding-bottom:.4rem;
+	
+	
+}
+.poetry-info p{
+	font-size:.24rem;
+	line-height:.36rem;
+	color:#d7d7d7;
+	width:5rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.reader-info{
+	text-align:right;
+}
+.reader-info .name{
+	color:#1b1b1b;
+}
+.reader-info .name img{
+	width:.45rem;
+	height:.45rem;
+	border-radius:50%;
+	margin-right:.15rem;
+}
+.reader-info p{
+	font-size:.24rem;
+	line-height:.44rem;
+	color:#d7d7d7;
+}
+
+.bottom-con{
+	background:url(../images/blue-bg.jpg) no-repeat center top #f3f6fb;
+	text-align:center;
+	padding-bottom:1.5rem;
+}
+.bottom-con h2{
+	font-size:.36rem;
+	color:#648b33;
+}
+.logo-en{
+	width: 1.52rem;
+	height: .36rem;
+	margin: .3rem auto 0;
+}
+.logo-en img{
+	width: 1.52rem;
+	height: .36rem;
+}
+.weixin{
+	width: 2.6rem;
+	height: 2.6rem;
+	margin: .5rem auto 0;
+}
+.weixin img{
+	width: 2.6rem;
+	height: 2.6rem;
+}
+.desc-word{
+	padding-top: .4rem;
+	font-size: .24rem;
+	color:#959595;
+	line-height: .36rem;
+}
+.green-line{
+	width: 3.2rem;
+	height: .1rem;
+	background: #668f31;
+	margin: .54rem auto 0;
+}
+.open-btn{
+	width: 100%;
+	height: .6rem;
+	line-height: .6rem;
+	text-align: center;
+}
+.open-btn img{
+	width: .35rem;
+	height: .2rem;
+}
+
+
+.foot{
+	width: 100%;
+	height: 1rem;
+	background:rgba(0,0,0,0.8);
+	position: fixed;
+	bottom: 0;
+	left:0;
+	z-index:99;
+	padding: .1rem .1rem .1rem 0;
+}
+.foot .foot-logo{
+	width:1rem;
+	height:.8rem;
+	text-align: center;
+	display: inline-block;	
+}
+.foot .foot-logo img{
+	width:.6rem;
+	height:.7rem;	
+	padding-top: .1rem;
+	
+}	
+.foot .foot-con{
+	width: 4.1rem;
+	color: #dcdcdc;
+}
+.foot .foot-con h2{
+	height: .4rem;
+	line-height: .4rem;
+	font-size:.28rem;
+	overflow: hidden;
+}
+.foot .foot-con p{
+	height: .3rem;
+	line-height: .3rem;
+	font-size:.24rem;
+	overflow: hidden;
+}
+.foot .down-btn{
+	width: 1.04rem;
+	height: .66rem;
+	padding-top: .1rem;
+	overflow: hidden;
+	display: inline-block;
+}
+.foot .down-btn img{
+	width: 1.04rem;
+	height: .56rem;
+}
+
+

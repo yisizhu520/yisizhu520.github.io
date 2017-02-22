@@ -1,0 +1,92 @@
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6,strong {font-weight:normal;font-size:100%;}
+input, select,textarea {vertical-align:middle;}
+textarea{resize:none;overflow: auto;}  
+button {background:none;border:none;}    
+img{border:none;vertical-align:top;} 
+ol,ul,li {list-style:none;} 
+table {border-collapse:collapse;border-spacing:0;}
+table,td {border:none}
+i, em{font-style:normal;}
+:focus {outline: 0;}
+ins {text-decoration: none;}
+caption, th, td {font-weight: normal;}    
+blockquote:before, blockquote:after, 
+q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";} 
+body { -webkit-font-smoothing: subpixel-antialiased;font-family: "Helvetica Neue" , Helvetica, STHeiTi, sans-serif;}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* 1.去除android a/button/input标签被点击时产生的边框 2.去除ios a标签被点击时产生的半透明灰色背景 */
+a,button,input{
+    -webkit-tap-highlight-color:rgba(255,0,0,0);
+}
+a{text-decoration: none;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+.left{float: left;}
+.right{float: right;}
+.none{display: none;}
+.font22{font-size: .22rem;}
+body {
+    background: url(../images/bg.png) repeat;
+    height: 100%;
+}
+@font-face {
+	font-family: 'fzskbxk';
+	src: url('../font/fzskbxk.eot');
+	src: local('fzskbxk'), 
+		 local('fzskbxk'), url('../font/fzskbxk.ttf') format('truetype'), 
+		 url('../font/fzskbxk.svg#hfzskbxk') format('svg'),
+		 url('../font/fzskbxk.woff') format('woff');
+}
+.fzskbxk{
+	font-family: 'fzskbxk';
+}
+@font-face {
+	font-family: 'fzqkbys';	
+    src: url('../font/fzqkbys.eot');
+	src: local('fzqkbys'), 
+		 local('fzqkbys'), url('../font/fzqkbys.ttf') format('truetype'), 
+		 url('../font/fzqkbys.svg#fzqkbys') format('svg'),
+		 url('../font/fzqkbys.woff') format('woff');
+}
+.fzqkbys{
+	font-family: 'fzqkbys';
+}
+@font-face {
+	font-family: 'dqh';
+	src: url('../font/dqh.eot');
+	src: local('dqh'), 
+		 local('dqh'), url('../font/dqh.ttf') format('truetype'), 
+		 url('../font/dqh.svg#dqh') format('svg'),
+		 url('../font/dqh.woff') format('woff');
+}
+.dqh{
+	font-family: 'dqh';
+}
+
+.g-loading{
+	height: .8rem;
+	text-align:center;
+	color:#878787;
+	font-size:.24rem;
+	line-height:.8rem;
+	display: none;
+}
+.g-loading img{
+	width: .8rem;
+	height: .8rem;
+}
+
+/*@font-face {
+font-family: 'fzskbxk';
+src: url('../font/fzskbxk.eot');    IE9 Compat Modes 
+src: url('../font/fzskbxk.eot?#iefix') format('embedded-opentype'),  IE6-IE8
+         url('../font/fzskbxk.woff') format('woff'),   Modern Browsers
+         url('../font/fzskbxk.ttf')  format('truetype'),   Safari, Android, iOS
+         url('../font/fzskbxk.svg#fzskbxk') format('svg');   Legacy iOS
+}*/

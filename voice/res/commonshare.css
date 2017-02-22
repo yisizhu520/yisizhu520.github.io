@@ -1,0 +1,51 @@
+.content{
+	padding-bottom: 1rem;
+}
+.sharecd-out{
+	background-image:url(cd-bg-love.png);
+	background-repeat:no-repeat;
+	background-size: 5.7rem;
+	height: 5.7rem;
+	width: 5.7rem;
+	margin:0 auto;
+}
+
+.cd-antion{	
+	animation: 9.5s linear 0s normal none infinite rotate;
+	-webkit-animation:9.5s linear 0s normal none infinite rotate;
+	-o-animation:9.5s linear 0s normal none infinite rotate;
+	-moz-animation:9.5s linear 0s normal none infinite rotate;
+	-ms-animation:9.5s linear 0s normal none infinite rotate;
+}
+.shareHead{
+	width: .8rem;
+	height: .8rem;
+	border-radius: 50%;
+	margin-right: .2rem;
+}
+.shareWord{
+	width: 4.5rem;
+}
+.share-cont .shareWord24{
+	font-size:.28rem;
+	line-height:.4rem;
+	color:#959595;
+	border: none;
+	outline: none;
+	overflow: hidden;
+	width: 100%;
+	background: none;
+}
+.shareWord>h2{
+    color: #668f31;
+    font-size: .32rem;
+    padding-bottom: .1rem;
+    font-weight: bold;
+}
+
+h4{
+	color: #668f31;
+	font-size: .24rem;
+	padding-bottom: .1rem;
+	font-weight: bold;
+}
