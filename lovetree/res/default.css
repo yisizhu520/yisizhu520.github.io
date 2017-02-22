@@ -1,0 +1,52 @@
+body {
+	background: rgb(255, 255, 238); margin: 0px; padding: 0px; color: rgb(35, 31, 32); overflow: auto;
+	text-align:center;
+}
+a {
+	color: rgb(0, 0, 0); font-size: 14px;
+}
+#main {
+	width: 100%;
+}
+#wrap {
+	margin: 10px auto 0px; width: 1100px; height: 680px; position: relative;
+}
+#text {
+    margin: 10px auto 0px; width: 1100px; height: 425px; position: absolute;margin-top: 100px;text-align:center;
+}
+#code {
+	font-size: 26px; display: none;text-align:center;
+}
+#clock-box {
+	margin: 0px auto; width: 1100px; top: 720px; font-size: 28px; display: none; position: absolute;
+}
+#clock-box a {
+	font-size: 28px; text-decoration: none;
+}
+#clock {
+	margin: 0px auto; width: 1100px;position: absolute;
+}
+#clock .digit {
+	font-size: 64px;
+}
+#canvas {
+	margin: 0px auto; width: 1100px; height: 680px;
+}
+#error {
+	margin: 60px auto 0px; text-align: center; display: none;
+}
+.hand {
+	cursor: pointer;
+}
+.say {
+	margin-left: 5px; font-size: 36px;
+    font-family: "Helvetica Neue" , Helvetica, STHeiTi, sans-serif;
+    line-height: 72px;
+}
+.space {
+	margin-right: 150px;
+}
+
+span {
+    font-family: "Helvetica Neue" , Helvetica, STHeiTi, sans-serif;
+}
