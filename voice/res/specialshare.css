@@ -2,6 +2,7 @@
 .content{
 	font-size:.28rem;
 	margin: 0 auto;
+	background: url(bg.png) repeat;
 }
 article{
 	padding:.6rem .4rem 0;
@@ -10,8 +11,8 @@ article{
 	text-align:center;
 }
 .share-top img{
-	/*width:4rem;*/
-	/*height:1.5rem;*/
+	width:4rem;
+	/*height:1rem;*/
 }
 .share-title{
 	width:3.7rem;
@@ -25,14 +26,14 @@ article{
 	position:absolute;
 	top:-.2rem;
 	left:1.06rem;
-	background: url(../images/bg.png) repeat;
+	background: url(bg.png) repeat;
 	padding:0 .1rem;
 }
 .share-cont{
 	margin-top:.2rem;
 }
 .share-cont h1{
-	background-image: url(../images/icon-to.png);
+	background-image: url(bg.png);
 	background-repeat:no-repeat;
 	background-size: .47rem;
 	text-indent:.65rem;
@@ -60,6 +61,7 @@ article{
 	text-align:center;
 	height:6.4rem;
 	overflow:hidden;
+	background:white;
 }
 @-webkit-keyframes rotate{
 	from{-webkit-transform:rotate(0deg)}
@@ -196,7 +198,7 @@ article{
 }
 
 .bottom-con{
-	background:url(../images/blue-bg.jpg) no-repeat center top #f3f6fb;
+	background:url(blue-bg.jpg) no-repeat center top #f3f6fb;
 	text-align:center;
 	padding-bottom:1.5rem;
 }
